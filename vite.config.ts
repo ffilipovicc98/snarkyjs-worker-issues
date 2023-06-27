@@ -15,4 +15,13 @@ export default defineConfig({
 			target: "esnext",
 		},
 	},
+
+  build: {
+		target: "esnext",
+		outDir: "dist",
+	},
+
+  worker: {
+    format: "es"
+  }
 });
