@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "comlink": "^4.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "snarkyjs": "^0.11.0",
+    "vite-plugin-server-headers": "^0.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.37",

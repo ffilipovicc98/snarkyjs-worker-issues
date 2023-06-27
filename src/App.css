@@ -35,8 +35,18 @@
 
 .card {
   padding: 2em;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
-.read-the-docs {
-  color: #888;
+.example {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 12px;
+}
+
+.example p {
+  margin: 0;
+  margin-bottom: 1rem;
 }
